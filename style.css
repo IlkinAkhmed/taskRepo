@@ -2,6 +2,7 @@ footer{
     width: 100%;
     background-color: red;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -80,3 +81,6 @@ nav div:hover{
     transition: 0.5s;
 }
 
+a{
+    color: white;
+}
